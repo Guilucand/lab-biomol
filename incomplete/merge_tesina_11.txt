@@ -1,0 +1,27 @@
+Il Laemmli buffer, scoperto dall'omonimo professore,
+e' un insieme di componenti che serve a diluire le proteine per
+consentire l'elettroforesi tramite il metodo SDS-PAGE
+E' composto da:
+Tris-HCl pH 6.8
+SDS
+glicerolo
+bromofenolo blu
+
+Funzionamento:
+Una volta che le proteine con il Laemmli buffer sono caricate
+sui pozzetti e viene creata una differenza di potenziale tra
+i capi del gel, le proteine, assieme agli ioni Cl- e alla glicerina
+iniziano a spostarsi verso il basso.
+Inizialmente la glicina e' forzata ad entrare nello stacking gel,
+a causa del pH 8.3 dell'electrode buffer che la rende carica negativamente.
+Una volta entrata nel gel pero', il pH 6.8 la converte nella sua forma
+zwitterionica. Quindi non avendo piu' una carica marcata, si muove molto lentamente.
+A questo punto le proteine, che hanno una carica minore rispetto alla glicina nell'Electrode sampling buffer,
+entrano nello stacking gel, seguite dagli ioni Cl-.
+La maggiore velocita' degli ioni Cl- rispetto alla glicina consente la formazione di un
+sottile strato nel quale le proteine si accumulano.
+Appena la glicina entra nel running gel, che ha pH 8.8, acquista carica negativa
+e corre molto piu' velocemente nel gel, disperdendosi e lasciando alle proteine
+la possibilita' di spostarsi liberamente.
+A questo punto le proteine si separano secondo la loro carica,
+che e' proporzionale al peso molecolare grazie all'azione dell'SDS.

@@ -1,0 +1,23 @@
+Allestimento di colture cellulari
+
+Scopo
+In questa esperienza sara' illustrato il
+procedimento per allestire colture cellulari
+partendo da una piastra?
+
+
+Procedimento:
+preparazione del terreno di coltura:
+1) aliquotare 10ml di terreno DMEM in una falcon da 15 ml
+e' importante effettuare l'operazione in cappa sterile per evitare contaminazioni
+2) aggiungere 10% di FBS al terreno
+il siero fetale bovino e' necessario per fornire alle cellule sostanze non presenti
+nel terreno di coltura, come proteine plasmatiche, fattori di crescita, chelanti, vitamine ed elettroliti.
+
+3) aggiungere cocktail di antibiotici-antimicotici in concentrazione 1%
+cio' permette la selezione dei batteri trasformati dai plasmidi
+
+Staccare le cellule tramite cell-scraper
+1) eliminare il terreno esausto
+2) lavare con 5ml di PBS, agitando delicatamente
+3) ripetere il lavaggio con PBS
