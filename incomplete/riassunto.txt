@@ -1,0 +1,111 @@
+Plasimidi:
+    DNA extracromosomico
+    Auto-replicanti
+    Trovati in praticamente tutte le specie batteriche
+    Molto variegati in:
+        replicazione
+        numero di copie per cellula
+        abilita' di propagazione
+        trasferibilita' a diversa specie
+        tratti che codificano
+    Solitamente circolari a doppia elica
+        identificati anche plasimidi lineari
+
+    Variano da nKilo basi a 100nKbasi
+
+    La replicazione necessita di proteine della cellula
+    A volte anche proteine codificate dal plasmide stesso
+
+    Replicazione
+        Sincronizzata col ciclo cellulare:
+            poche copie
+        Non sicronizzata:
+            molte copie (centinaia)
+
+    Funzionalita':
+        resistenza antibiotici
+        resistenza metalli pesanti
+        sensitivita' ai mutaceni
+        sensitivita'/resistenza batteriofagi
+        produzione o restrizione di enzimi
+        produzione di amminoacidi rari
+        prodizione di tossine
+        virulenza
+        catabolismo di molecole organiche complesse
+        formazione di relazioni simbiontiche
+        trasferimento DNA tra regni
+
+    Plasmidi di Escherichia coli: piu' utilizzati
+    ->Vettori plasmide:
+        replicatore:
+            frammento di DNA contenente la sequenza di inizio replicazione (ori)
+            geni per proteine necessarie alla replicazione
+
+            classificati in base al numero di molecole plasmidiche per cellula:
+                Elevato numero di copie: > 20 mol/cell
+                    controllo rilassato di replicazione
+                    controllato da funzionalita' codificate dal plasmide
+                Basso numero di copie: < 20 mol/cell
+                    controllo stringente
+                    dipende da un'instabile proteina sintetizzata all'inizio del ciclo batterico
+                    Sincronizzata con la replicazione del cromosoma batterico
+                    non garantito che ogni cellula figlia abbia una copia del plasmide
+                    la maggior parte contiene geni che garantiscono il loro mantenimento nella popolazione batterica
+        marker evidenziabile:
+            selezione dei batteri con il plasmide
+            resistenza agli antibiotici -> la piu' utilizzata
+            immunita' all'infezione del fago lambda
+
+        sito di clonaggio:
+            contiene siti di restrizione per l'endonucleasi
+                unici nella molecola di DNA
+                modificarli non altera le altre funzionalita' del plasmide
+                punti di inserimento per le sequenze aggiunte
+
+    La maggior parte dei plasmidi utilizzati per DNA ricombinante contengono funzionalita' simili ai replicatori derivati da
+        ColE1
+            pBluescript -> ColE1 origin
+            replicatore: dna 600-pb
+            tutte le funzionalita' enzimatiche per la replicazione sono fornite dalla cellula
+        pMB1
+            pUC
+
+        Entrambi ad elevato numero di copie (15-25)
+
+    Incompatibilita' plasmidica:
+        se appartengono allo stesso gruppo di incompatibilita'
+            ovvero condividono qualisasi funzione richiesta per la regolazione della replicazione plasmidica
+        se forniscono resistenza allo stesso antibiotico:
+            impossibilita' di sapere se entrambi sono presenti
+
+    Plasmidi integrativi (episomi):
+        integrano il loro DNA all'interno del cromosoma batterico per la replicazione
+    Non integrativi:
+        rimangono sempre separati
+
+PURIFICAZIONE DEL DNA PLASIMIDICO (MINIPREP) MEDIANTE LISI ALCALINA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+X

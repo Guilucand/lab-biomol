@@ -1,0 +1,136 @@
+ELETTROFORESI SDS-PAGE
+
+
+Lo scopo di questa esperienza e' effettuare l'elettroforesi delle proteine estratte nell'esperienza 10
+tramite la tecnica SDS-PAGE
+
+Per motivi pratici e di sicurezza, il gel era gia' stato preparato in precedenza
+Per questa relazione e' stato scelto di inserire i procedimenti in ordine corretto,
+iniziando quindi con la preparazione del gel.
+
+
+Cenni teorici
+
+Solitamente l'elettroforesi ha la capacita' di separare le proteine secondo sia
+la carica presente che la massa.
+L'elettroforesi SDS-PAGE, che si effettua in gel di acrilammide, si differenzia
+rispetto ad altri tipi di elettroforesi in quanto la separazione delle proteine
+avviene solo in base al solo peso molecolare, indipendentemente dalla carica.
+Cio' e' possibile grazie alla proprieta' denaturante dell'SDS,
+che permette di mantenere costante il rapporto massa-carica per ogni proteina denaturata.
+L'SDS, acronimo di Laurilsolfato di sodio, e' un tensioattivo in grado di denaturare le proteine e
+neutralizzare le cariche?
+
+Il gel e' diviso in due parti, stacking gel e running gel. Lo stacking gel
+ha lo scopo di allineare le proteine, portandole tutte allo stesso livello e per
+questo contiene una percentuale piu' elevata di acrilammide.
+Il running gel ha invece il compito di permettere alle proteine di separarsi a
+seconda della carica
+
+
+MATERIALI:
+    Provette Eppendorf (2mL)
+    Micropipette (100-1000 e 2-200 mL)
+    Falcon (50mL)
+    Carta bibula
+    Apparato per casting del gel elettroforetico
+
+
+
+SOLUZIONI E COMPOSTI:
+    Laemmli Sample Buffer 4X
+    Acrilammide/bis
+    1,5M Tris-HCl, pH 8,8
+    Tris base
+    Glicina
+    10% soluzione SDS
+    10% ammonio persolfato
+    TEMED
+    isopropanolo
+    ddH20
+
+    Proteine da analizzare 20ug (estratte nell'esperienza 10)
+
+
+    Tris base
+    Glicina
+    10% soluzione SDS
+
+
+Procedimento:
+
+1 Preparazione del Running/Resolving gel
+    Acrilammide/bis 40%
+    1,5M Tris-HCl, pH 8,8 25%
+    10% soluzione SDS 1%
+    10% ammonio persolfato 1%
+    TEMED 0,1%
+    ddH20   a volume totale
+
+Predisporre l'apparato necessario al casting del gel elettroforetico
+
+Miscelare tutti i componenti della tabella 1 in una Falcon da 50mL.
+
+Distribuire velocemente la miscela tra i vetri dell'apparato, e' importante
+tenere l'eccesso del gel all'interno della Falcon, per stabilire quando il gel
+si sara' solidificato
+
+Stratificare sino a riempimento con alcol isopropilico. Questa fase e' necessaria
+per limitare il contatto con l'aria del gel che si sta solidificando e contemporaneamente
+permettere un livellamento del gel grazie al peso dell'alcol. E' importante notare
+che in questa fase l'alcol e il gel non si mescolano.
+
+Attendere la polimerizzazione (confermata dalla quantita' di gel lasciata nella Falcon)
+
+
+2 Preparazione dell'Electrode Running Buffer 10X
+Soluzioni utilizzate:
+    Tris base 3% 9ml
+    Glicina 14,4% 43,2ml
+    SDS soluzione 10% -> 1% 3ml
+    Totale 300mL
+
+3 Preparazione dello stacking gel
+
+Reagenti:
+    Acrilammide/bis 61%
+    1,5M Tris-HCl, pH 8,8 25%
+    10% soluzione SDS 1%
+    10% ammonio persolfato 1%
+    TEMED 0,2%
+    ddH20   a volume totale
+
+4 Posizionamento dello stacking gel
+
+A polimerizzazione avvenuta del running buffer, eliminare l'isopropanolo
+e asciugare con un pezzetto di carta bibula
+
+Aliquotare la miscela tra i vetri del gel, tenendo come prima l'eccesso sulla Falcon.
+Inserire il pettine per consentire la formazione dei pozzetti di caricamento delle proteine
+
+Attendere la polimerizzazione del gel
+
+5 Caricamento delle proteine estratte
+
+Scongelare le proteine da analizzare
+Calcolare, in base alla concentrazione trovata nell'esperienza 10, quanti ul di
+estratto da utilizzare per caricare 15ug di proteine totali.
+Addizionare di Laemmli Sample Buffer 4X, portandolo a concentrazione finale 1X.
+
+Bollire la miscela a 99C per 10'
+
+6 Preparazione apparato per l'elettroforesi
+
+Posizionare i vetri con il gel all'interno dell'apparato per l'elettroforesi
+
+
+Riempire con 300mL di Electrode Running Buffer 1X (v. punto 2)
+E' importante diluire la soluzione creata nel punto 2, in quanto e' 10X.
+
+Caricare i pozzetti con la soluzione del punto 5
+
+Connettere la camera di corsa con l'alimentatore e impostare 120V costanti.
+
+Verificare la corretta partenza della corsa
+
+Attendere la fuoriuscita del fronte contrassegnato dal colorante in fase di caricamento
