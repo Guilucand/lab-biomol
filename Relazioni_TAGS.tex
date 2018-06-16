@@ -5,12 +5,14 @@
 %\setlength\parindent{0pt} % Rimuove indendazioni
 \usepackage[utf8x]{inputenc} %serve per i simboli utf8x
 
+\usepackage{subcaption} %serve per mettere le subfigure ESCLUDE SUBFIG
+
 \usepackage{times} % Uncomment to use the Times New Roman font
 \usepackage{siunitx}
 \usepackage{textgreek}
 \usepackage{multirow}
 \usepackage{float} %serve per mettere le immagini in posizione Here
-\usepackage{subfig} %serve per mettere più figure in colonna o in riga
+%\usepackage{subfig} %serve per mettere più figure in colonna o in riga
 \usepackage[a4paper,total={170mm,257mm},left=25mm,right=25mm,bottom=35mm]{geometry} % per il layout
 
 
@@ -113,6 +115,10 @@
 
 		\vspace{0.5cm}
 
+Altri strumenti sono invece necessari in un laboratorio per poter \textbf{maneggiare accuratamente e nel modo più appropriato} i nostri materiali e le nostre sostanze. Questi materiali sono:
+		\vspace{0.5cm}
+
+
 
 		\item Provette Eppendorf :
 
@@ -172,6 +178,19 @@
 		\vspace{0.5cm}
 
 
+		\item Piastra di Petri:
+
+		\begin{figure}[H]
+
+			\includegraphics[width=0.5\textwidth]{./immagini/piastra_petri.jpg}
+			\caption{La piastra di Petri o capsula di Petri è un recipiente di vetro o plastica,  solitamente a forma cilindrica; E' un apparecchio molto usato nei laboratorio di biologia, poichè su di esso si può far crescere culture cellulari. Le piastre hanno un diametri che varia tra 50 mm a i 100 mm ed un' altezza di 15 mm.}
+			\label{piastra_petri}
+
+		\end{figure}
+
+		\vspace{0.5cm}
+
+
 		\item pipette:
 
 		\begin{figure}[H]
@@ -198,6 +217,11 @@
 		\end{figure}
 
 		\vspace{0.5cm}
+
+		\textbf{Altri strumenti ancora}, sono invece necessari per poter andare ad \textbf{interagire} proprio con le nostre sostanze, facendogli compiere delle operazioni necessarie per raggiungere un risultato, come nel caso della vasca per l'elettroforesi necessaria per dividere le i nostri acidi nucleici o le nostre proteine in base alla loro carica, oppure il microscopio ottico, per andare a vedere la disposizione delle cellule nel nostro campione e poterle contare.
+Questi strumenti sono:
+
+
 
 
 		\item Microscopio ottico:
@@ -228,6 +252,77 @@
 
 		\vspace{0.5cm}
 
+
+		\item Centrifuga:
+
+		\begin{figure}[H]
+
+			\includegraphics[width=0.35\textwidth]{./immagini/centrifuga.jpg}
+			\caption{La centrifuga è un' apparecchiatura utilizzata nei laboratori per accellerare la separazione tra corpi aventi differente densità mediante l'uso della forza centrifuga.}
+			\label{centrifuga}
+
+		\end{figure}
+
+		\vspace{0.5cm}
+
+
+		\item Termociclatore:
+
+		\begin{figure}[H]
+
+			\includegraphics[width=0.35\textwidth]{./immagini/termociclatore.jpg}
+			\caption{Il termociclatore è come dice la parola uno strumento che ad intervalli di tempo(cicli) fà variare la temperatura (termo). Questo strumento serve per l'amplificazione enzimatica di sequenze di DNA in vitro attraverso la reazione a catena della polimerasi (PCR).}
+			\label{termociclatore}
+
+		\end{figure}
+
+		\vspace{0.5cm}
+
+
+		\item Spettrofotometro:
+
+		\begin{figure}[H]
+			\centering
+
+				\begin{subfigure}[b]{1\textwidth}
+
+					\centering
+			  	\includegraphics[width=0.35\textwidth]{./immagini/spettrofotometro.jpg}
+					\caption{spettrofotometro a cuvetta}
+					\label{spettrofotometro_cuvetta}
+
+				\end{subfigure}
+
+				\qquad
+
+				\begin{subfigure}[b]{1\textwidth}
+					\centering
+					\includegraphics[width=0.35\textwidth]{./immagini/spettrofotometro_nanodrop.jpg}
+					\caption{spettrofotometro nanodrop}
+					\label{spettrofotometro_nanodrop}
+				\end{subfigure}
+
+				\quad
+
+				\begin{subfigure}[b]{1\textwidth}
+
+					\centering
+			  	\includegraphics[width=0.35\textwidth]{./immagini/assorbanza.jpeg}
+					\caption{Funzionamento dello spettrofotometro}
+					\label{assorbanza}
+
+				\end{subfigure}
+
+			\caption{Lo spettrofotometro è uno strumento usato in laboratorio per la misura dell'intensità luminosa, che può determinare la misura dell'intensità come funzione della lunghezza d'onda.
+			Grazie a questo possiamo sapere l'assorbanza della nostra miscela e quindi saperne la quantità e la purezza.}
+
+		\end{figure}
+
+		\vspace{0.5cm}
+
+
+
+
 	\end{enumerate}
 
 
@@ -238,8 +333,8 @@
 	\vspace{1.5cm}
 
 	%_______________________________ESPERIENZA N° 1 (PREPARAZIONE DNA PLASMIDICO TRAMITE LISI ALCALINA)
-	%\input{relazione1.tex}
-	%\newpage
+	\input{relazione1.tex}
+	\newpage
 
 	%_______________________________ESPERIENZA N° 3 (ELETTROFORESI)
 	\input{relazione3.tex}
