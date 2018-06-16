@@ -1,7 +1,7 @@
 \documentclass{article}
 
 \usepackage{graphicx} % Per immagini
-
+\usepackage{tabularx} % Per creare tabelle styfel
 %\setlength\parindent{0pt} % Rimuove indendazioni
 \usepackage[utf8x]{inputenc} %serve per i simboli utf8x
 
@@ -11,7 +11,7 @@
 \usepackage{multirow}
 \usepackage{float} %serve per mettere le immagini in posizione Here
 \usepackage{subfig} %serve per mettere più figure in colonna o in riga
-\usepackage[a4paper,total={170mm,257mm},left=25mm,top=35mm,right=25mm,bottom=35mm]{geometry} % per il layout
+\usepackage[a4paper,total={170mm,257mm},left=25mm,right=25mm,bottom=35mm]{geometry} % per il layout
 
 
 \begin{document}
@@ -159,6 +159,19 @@
 		\vspace{0.5cm}
 
 
+		\item Bottiglia da laboratorio:
+
+		\begin{figure}[H]
+
+			\includegraphics[width=0.5\textwidth]{./immagini/bottiglia.JPG}
+			\caption{La bottiglia da laboratorio è un recipiente per le soluzioni che necessitano di un tappo per non far disperdere i gas durante le varie reazioni.}
+			\label{bottiglia}
+
+		\end{figure}
+
+		\vspace{0.5cm}
+
+
 		\item pipette:
 
 		\begin{figure}[H]
@@ -234,6 +247,10 @@
 
 	%_______________________________ESPERIENZA N° 4 (PCR)
 	\input{relazione4.tex}
+	\newpage
+
+	%_______________________________ESPERIENZA N° 5 (PREPARAZONE TERRENO (E PIASTRAGGIO) E CELLULE COMPETENTI)
+	\input{relazione5.tex}
 	\newpage
 
 	%_______________________________ESPERIENZA N° 6 (XL1_BLUE)
