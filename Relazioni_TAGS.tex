@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass{report}
 
 \usepackage{graphicx} % Per immagini
 \usepackage{tabularx} % Per creare tabelle styfel
@@ -14,14 +14,21 @@
 \usepackage{multirow}
 \usepackage{siunitx}
 \usepackage{textcomp}
+\usepackage{fancyhdr}
 \usepackage{float} %serve per mettere le immagini in posizione Here
 %\usepackage{subfig} %serve per mettere più figure in colonna o in riga
 \usepackage[a4paper,total={170mm,257mm},left=25mm,right=25mm,bottom=35mm]{geometry} % per il layout
 
+\addto\captionsitalian{% Replace "english" with the language you use
+  \renewcommand{\contentsname}%
+    {Indice delle relazioni:}%
+	\renewcommand{\chaptername}{Relazione}
+}
+
 
 \begin{document}
 
-	\title{RELAZIONI DI LABORATORIO DI BIOLOGIA MOLECOLARE}
+	\title{RELAZIONI DI LABORATORIO\\BIOLOGIA MOLECOLARE}
 
 	\author{Balestriero G.\\Buzzolan T.\\Cracco A.\\Litterini S. }
 
@@ -31,31 +38,33 @@
 
 	\vspace{1.5cm}
 
-	\large{\textbf{ELENCO DELLE RELAZIONI :}}
-	\vspace{0.5cm}
+	\tableofcontents
 
-	\begin{enumerate}
-
-		\item Minipreparazione di DNA plasmidico
-		\item Estrazione dell'RNA totale con TRIZOL
-		\item Preaparazione TAE 50X e restrizione del DNA
-		\item Polymerase Chain Reaction (PCR)
-		\item Praparazione terreno LB, cellule competenti e piastre LB-agar
-		\item Trasformazione delle cellule di E. coli XL1 Blue
-		\item Allestimento culture cellulari
-		\item Utilizzo delle culture cellulari umane in analisi molecolari e morfologiche
-		\item Estrazione RNA con kit su colonnina Qiagen: Retrotrascrizione in cDNA
-		\item Amplificazione RealTime PCR ed Estrazione delle proteine totali
-		\item SDS-PAGE delle proteine estratte
-		\item Separazione cellulare su gradiente di ficoll
-
-	\end{enumerate}
+	% \begin{enumerate}
+	%
+	% 	\item Minipreparazione di DNA plasmidico
+	% 	\item Estrazione dell'RNA totale con TRIZOL
+	% 	\item Preaparazione TAE 50X e restrizione del DNA
+	% 	\item Polymerase Chain Reaction (PCR)
+	% 	\item Praparazione terreno LB, cellule competenti e piastre LB-agar
+	% 	\item Trasformazione delle cellule di E. coli XL1 Blue
+	% 	\item Allestimento culture cellulari
+	% 	\item Utilizzo delle culture cellulari umane in analisi molecolari e morfologiche
+	% 	\item Estrazione RNA con kit su colonnina Qiagen: Retrotrascrizione in cDNA
+	% 	\item Amplificazione RealTime PCR ed Estrazione delle proteine totali
+	% 	\item SDS-PAGE delle proteine estratte
+	% 	\item Separazione cellulare su gradiente di ficoll
+	%
+	% \end{enumerate}
 
 	\newpage
 
 	%STRUMENTI
+	\chapter*{Strumenti utilizzati nelle esperienze}
 
-	\large{\textbf{STRUMENTI UTILIZZATI NELLE ESPERIENZE :}}
+	\renewcommand*\thesection{\arabic{section}}
+	\addtocontents{toc}{\protect\setcounter{tocdepth}{0}}
+
 
 		\vspace{0.5cm}
 
@@ -63,291 +72,291 @@
 		per poter eseguire i vari lavori in tutta \textbf{sicurezza e praticità}, per questo \`e necessario munirsi
 		dei seguenti strumenti:
 
-	\begin{enumerate}
-
-		\item In primis : guanti in lattice
-
-		\begin{figure}[H]
-
-			\includegraphics[width=0.5\textwidth]{./immagini/guanti.jpg}
-			\caption{Guanti in lattice usa e getta da laboratorio con lo scopo di proteggere le mani da agenti di vario tipo,
-			principalmente dannosi alla pelle	oppure per proteggere i materiali utilizzati.}
-			\label{guanti}
-
-		\end{figure}
-
-		\vspace{0.5cm}
 
 
-		\item Camice:
+	\section{In primis : guanti in lattice}
 
-		\begin{figure}[H]
+	\begin{figure}[H]
 
-			\includegraphics[width=0.4\textwidth]{./immagini/camice.jpg}
-			\caption{Camice bianco da laboratorio, utilizzato in tutti i laboratori per esigenze di igiene e pulizia.}
-			\label{camice}
+		\includegraphics[width=0.5\textwidth]{./immagini/guanti.jpg}
+		\caption{Guanti in lattice usa e getta da laboratorio con lo scopo di proteggere le mani da agenti di vario tipo,
+		principalmente dannosi alla pelle	oppure per proteggere i materiali utilizzati.}
+		\label{guanti}
 
-		\end{figure}
+	\end{figure}
 
-		\vspace{0.5cm}
-
-
-		\item Cappa biologica:
-
-		\begin{figure}[H]
-
-			\includegraphics[width=0.4\textwidth]{./immagini/cappa_biologica.jpg}
-			\caption{La cappa biologica o cappa a flusso laminare, è una cappa utilizzata
-			in ambito biologico per assicurare la protezione a chi maneggia elementi
-			biologici ed elimina inoltre la possibilità di contaminazioni crociate,
-			consentendo un lavoro in condizioni di sterilità.}
-			\label{cappa_biologica}
-
-		\end{figure}
-
-		\vspace{0.5cm}
+	\vspace{0.5cm}
 
 
-		\item Cappa chimica:
+	\section{Camice}
 
-		\begin{figure}[H]
+	\begin{figure}[H]
 
-			\includegraphics[width=0.4\textwidth]{./immagini/cappa_chimica.jpg}
-			\caption{La cappa chimica o cappa aspirante, è un apparecchio utilizzato nei
-			laboratori per proteggere l'operatore da eventuali vapori derivati da reazioni chimiche.}
-			\label{cappa_chimica}
+		\includegraphics[width=0.4\textwidth]{./immagini/camice.jpg}
+		\caption{Camice bianco da laboratorio, utilizzato in tutti i laboratori per esigenze di igiene e pulizia.}
+		\label{camice}
 
-		\end{figure}
+	\end{figure}
 
-		\vspace{0.5cm}
+	\vspace{0.5cm}
+
+
+	\section{Cappa biologica}
+
+	\begin{figure}[H]
+
+		\includegraphics[width=0.4\textwidth]{./immagini/cappa_biologica.jpg}
+		\caption{La cappa biologica o cappa a flusso laminare, è una cappa utilizzata
+		in ambito biologico per assicurare la protezione a chi maneggia elementi
+		biologici ed elimina inoltre la possibilità di contaminazioni crociate,
+		consentendo un lavoro in condizioni di sterilità.}
+		\label{cappa_biologica}
+
+	\end{figure}
+
+	\vspace{0.5cm}
+
+
+	\section{Cappa chimica}
+
+	\begin{figure}[H]
+
+		\includegraphics[width=0.4\textwidth]{./immagini/cappa_chimica.jpg}
+		\caption{La cappa chimica o cappa aspirante, è un apparecchio utilizzato nei
+		laboratori per proteggere l'operatore da eventuali vapori derivati da reazioni chimiche.}
+		\label{cappa_chimica}
+
+	\end{figure}
+
+	\vspace{0.5cm}
 
 Altri strumenti sono invece necessari in un laboratorio per poter
 \textbf{maneggiare accuratamente e nel modo più appropriato} i materiali
 e le sostanze. Questi sono:
-		\vspace{0.5cm}
+	\vspace{0.5cm}
 
-		\item Provette Eppendorf:
+	\section{Provette Eppendorf}
 
-		\begin{figure}[H]
+	\begin{figure}[H]
 
-			\includegraphics[width=0.6\textwidth]{./immagini/eppendorf.jpg}
-			\caption{provetta Eppendorf, di dimensione variabile, da \SI{250}{\micro\liter} ai 2ml,
-			utilizzate come provette monouso per piccole quantità di liquido. Utili nella centrifugazione.}
-			\label{eppendorf}
+		\includegraphics[width=0.6\textwidth]{./immagini/eppendorf.jpg}
+		\caption{provetta Eppendorf, di dimensione variabile, da \SI{250}{\micro\liter} ai 2ml,
+		utilizzate come provette monouso per piccole quantità di liquido. Utili nella centrifugazione.}
+		\label{eppendorf}
 
-		\end{figure}
+	\end{figure}
 
-		\vspace{0.5cm}
+	\vspace{0.5cm}
 
 
-		\item Provette Falcon :
+	\section{Provette Falcon}
 
-		\begin{figure}[H]
+	\begin{figure}[H]
 
-			\includegraphics[width=0.5\textwidth]{./immagini/falcon.jpeg}
-			\caption{la provetta falcon e quella eppendorf sono oggetti usa e getta,
-			poichè non sterilizzabili ad alte temperature.
-			Sono però abbastanza resistenti alle basse temperature cos\`i da permettere
-			la conservazione a lungo termine di campioni biologici.
-			Anche queste possono contenere del materiale per le
-			esperienze e sono più capienti delle provette eppendorf.}
-			\label{falcon}
+		\includegraphics[width=0.5\textwidth]{./immagini/falcon.jpeg}
+		\caption{la provetta falcon e quella eppendorf sono oggetti usa e getta,
+		poichè non sterilizzabili ad alte temperature.
+		Sono però abbastanza resistenti alle basse temperature cos\`i da permettere
+		la conservazione a lungo termine di campioni biologici.
+		Anche queste possono contenere del materiale per le
+		esperienze e sono più capienti delle provette eppendorf.}
+		\label{falcon}
 
-		\end{figure}
+	\end{figure}
 
-		\vspace{0.5cm}
+	\vspace{0.5cm}
 
 
-		\item Beuta:
+	\section{Beuta}
 
-		\begin{figure}[H]
+	\begin{figure}[H]
 
-			\includegraphics[width=0.5\textwidth]{./immagini/beuta.jpg}
-			\caption{la beuta è un recipiente con base tronco-conica e collo cilindrico.
-			Ne esistono di varie dimensioni, solitamente vanno da una capacità di 10mL fino ad 1L.
-			La forma particolare ne consente di minimizzare le perdite da evaporazione e la possibilità
-			di agitarne il contenuto senza che questo fuoriesca.}
-			\label{beuta}
+		\includegraphics[width=0.5\textwidth]{./immagini/beuta.jpg}
+		\caption{la beuta è un recipiente con base tronco-conica e collo cilindrico.
+		Ne esistono di varie dimensioni, solitamente vanno da una capacità di 10mL fino ad 1L.
+		La forma particolare ne consente di minimizzare le perdite da evaporazione e la possibilità
+		di agitarne il contenuto senza che questo fuoriesca.}
+		\label{beuta}
 
-		\end{figure}
+	\end{figure}
 
-		\vspace{0.5cm}
+	\vspace{0.5cm}
 
-		\item Bottiglia da laboratorio:
+	\section{Bottiglia da laboratorio}
 
-		\begin{figure}[H]
+	\begin{figure}[H]
 
-			\includegraphics[width=0.5\textwidth]{./immagini/bottiglia.JPG}
-			\caption{La bottiglia da laboratorio è un recipiente per le soluzioni che
-			necessitano di un tappo per non far disperdere
-			i gas durante le varie reazioni.}
-			\label{bottiglia}
+		\includegraphics[width=0.5\textwidth]{./immagini/bottiglia.JPG}
+		\caption{La bottiglia da laboratorio è un recipiente per le soluzioni che
+		necessitano di un tappo per non far disperdere
+		i gas durante le varie reazioni.}
+		\label{bottiglia}
 
-		\end{figure}
+	\end{figure}
 
-		\vspace{0.5cm}
+	\vspace{0.5cm}
 
 
-		\item Piastra di Petri:
+	\section{Piastra di Petri}
 
-		\begin{figure}[H]
-			\includegraphics[width=0.5\textwidth]{./immagini/piastra_petri.jpg}
-			\caption{La piastra di Petri o capsula di Petri è un recipiente di vetro o plastica,
-			solitamente a forma cilindrica. \`E un apparecchio molto usato nei laboratori di biologia,
-			poichè su di esso si possono far crescere colture cellulari.
-			Le piastre hanno un diametri che varia da 50mm a 100mm ed un'altezza di 15 mm.}
-			\label{piastra_petri}
-		\end{figure}
+	\begin{figure}[H]
+		\includegraphics[width=0.5\textwidth]{./immagini/piastra_petri.jpg}
+		\caption{La piastra di Petri o capsula di Petri è un recipiente di vetro o plastica,
+		solitamente a forma cilindrica. \`E un apparecchio molto usato nei laboratori di biologia,
+		poichè su di esso si possono far crescere colture cellulari.
+		Le piastre hanno un diametri che varia da 50mm a 100mm ed un'altezza di 15 mm.}
+		\label{piastra_petri}
+	\end{figure}
 
-		\vspace{0.5cm}
+	\vspace{0.5cm}
 
-		\item pipette:
+	\section{Pipette}
 
-		\begin{figure}[H]
+	\begin{figure}[H]
 
-			\includegraphics[width=0.5\textwidth]{./immagini/pipetta.jpg}
-			\caption{La pipetta è uno strumento da laboratorio, con il quale si possono prelevare
-			determinate quantità di liquido.
-			Sono per\`o poco precise nella misurazione delle quantità.
-			Per ottenere una maggiore precisione esistono le micropipette o le micropipette elettroniche.}
-			\label{pipetta}
+		\includegraphics[width=0.5\textwidth]{./immagini/pipetta.jpg}
+		\caption{La pipetta è uno strumento da laboratorio, con il quale si possono prelevare
+		determinate quantità di liquido.
+		Sono per\`o poco precise nella misurazione delle quantità.
+		Per ottenere una maggiore precisione esistono le micropipette o le micropipette elettroniche.}
+		\label{pipetta}
 
-		\end{figure}
+	\end{figure}
 
-		\vspace{0.5cm}
+	\vspace{0.5cm}
 
 
-		\item Micropipette e puntali:
+	\section{Micropipette e puntali}
 
-		\begin{figure}[H]
+	\begin{figure}[H]
 
-			\includegraphics[width=0.35\textwidth]{./immagini/micropipette.jpg}
-			\caption{Le micropipette (con i relativi puntali)
-			sono delle tipologie di pipette con precisione più alta rispetto alle precedenti.
-			Quelle usate in laboratorio da noi sono di 3 tipi e consentono il prelievo delle seguenti quantit\`a:
-			\SI{1000}{\micro\liter}-\SI{100}{\micro\liter}, \SI{200}{\micro\liter}-\SI{20}{\micro\liter} e
-			\SI{10}{\micro\liter}-\SI{0.5}{\micro\liter}. }
-			\label{micropipette}
+		\includegraphics[width=0.35\textwidth]{./immagini/micropipette.jpg}
+		\caption{Le micropipette (con i relativi puntali)
+		sono delle tipologie di pipette con precisione più alta rispetto alle precedenti.
+		Quelle usate in laboratorio da noi sono di 3 tipi e consentono il prelievo delle seguenti quantit\`a:
+		\SI{1000}{\micro\liter}-\SI{100}{\micro\liter}, \SI{200}{\micro\liter}-\SI{20}{\micro\liter} e
+		\SI{10}{\micro\liter}-\SI{0.5}{\micro\liter}. }
+		\label{micropipette}
 
-		\end{figure}
+	\end{figure}
 
-		\vspace{0.5cm}
+	\vspace{0.5cm}
 
-		\textbf{Ulteriori strumenti} sono invece necessari per poter effettuare delle \textbf{analisi} particolari.
-		Ad esempio la vasca per l'elettroforesi \`e necessaria per dividere acidi nucleici o proteine
-		in base alla loro carica oppure il microscopio ottico, per andare a vedere la
-		disposizione delle cellule nel campione e poterle contare.
-		Questi strumenti sono:
+	\textbf{Ulteriori strumenti} sono invece necessari per poter effettuare delle \textbf{analisi} particolari.
+	Ad esempio la vasca per l'elettroforesi \`e necessaria per dividere acidi nucleici o proteine
+	in base alla loro carica oppure il microscopio ottico, per andare a vedere la
+	disposizione delle cellule nel campione e poterle contare.
+	Questi strumenti sono:
 
-		\item Microscopio ottico:
+	\section{Microscopio ottico}
 
-		\begin{figure}[H]
+	\begin{figure}[H]
 
-			\includegraphics[width=0.35\textwidth]{./immagini/microscopio.jpg}
-			\caption{Il microscopio ottico è un tipo di miscroscopio che sfrutta la luce con lunghezza d'onda dal
-			vicino infrarosso all'ultravioletto, coprendo tutto lo spettro visibile.
-			\`E il microscopio più semplice e antico della storia. Consente di ingrandire l'immagine di un campione
-			illuminandolo con radiazioni nello spettro visibile, concentrandole per mezzo di lenti.}
-			\label{microscopio}
+		\includegraphics[width=0.35\textwidth]{./immagini/microscopio.jpg}
+		\caption{Il microscopio ottico è un tipo di miscroscopio che sfrutta la luce con lunghezza d'onda dal
+		vicino infrarosso all'ultravioletto, coprendo tutto lo spettro visibile.
+		\`E il microscopio più semplice e antico della storia. Consente di ingrandire l'immagine di un campione
+		illuminandolo con radiazioni nello spettro visibile, concentrandole per mezzo di lenti.}
+		\label{microscopio}
 
-		\end{figure}
+	\end{figure}
 
-		\vspace{0.5cm}
+	\vspace{0.5cm}
 
 
-		\item Vasca per l'elettroforesi:
+	\section{Vasca per l'elettroforesi}
 
-		\begin{figure}[H]
+	\begin{figure}[H]
 
-			\includegraphics[width=0.6\textwidth]{./immagini/vasca_elettroforesi.jpg}
-			\caption{Serve per l'elettroforesi, tecnica per analizzare e separare acidi nucleici e proteine,
-			sfruttando differenze di carica.}
-			\label{vasca_elettroforesi}
+		\includegraphics[width=0.6\textwidth]{./immagini/vasca_elettroforesi.jpg}
+		\caption{Serve per l'elettroforesi, tecnica per analizzare e separare acidi nucleici e proteine,
+		sfruttando differenze di carica.}
+		\label{vasca_elettroforesi}
 
-		\end{figure}
+	\end{figure}
 
-		\vspace{0.5cm}
+	\vspace{0.5cm}
 
 
-		\item Centrifuga:
+	\section{Centrifuga}
 
-		\begin{figure}[H]
+	\begin{figure}[H]
 
-			\includegraphics[width=0.35\textwidth]{./immagini/centrifuga.jpg}
-			\caption{La centrifuga è un'apparecchiatura utilizzata nei laboratori per accelerare
-			la separazione tra corpi aventi differente densità, mediante l'uso della forza centrifuga.}
-			\label{centrifuga}
+		\includegraphics[width=0.35\textwidth]{./immagini/centrifuga.jpg}
+		\caption{La centrifuga è un'apparecchiatura utilizzata nei laboratori per accelerare
+		la separazione tra corpi aventi differente densità, mediante l'uso della forza centrifuga.}
+		\label{centrifuga}
 
-		\end{figure}
+	\end{figure}
 
-		\vspace{0.5cm}
+	\vspace{0.5cm}
 
 
-		\item Termociclatore:
+	\section{Termociclatore}
 
-		\begin{figure}[H]
+	\begin{figure}[H]
 
-			\includegraphics[width=0.35\textwidth]{./immagini/termociclatore.jpg}
-			\caption{Il termociclatore è uno strumento
-			che ad intervalli di tempo (cicli) fa variare la temperatura.
-			Questo strumento serve per l'amplificazione di sequenze di DNA in
-			vitro attraverso la reazione a catena della polimerasi (PCR).}
-			\label{termociclatore}
+		\includegraphics[width=0.35\textwidth]{./immagini/termociclatore.jpg}
+		\caption{Il termociclatore è uno strumento
+		che ad intervalli di tempo (cicli) fa variare la temperatura.
+		Questo strumento serve per l'amplificazione di sequenze di DNA in
+		vitro attraverso la reazione a catena della polimerasi (PCR).}
+		\label{termociclatore}
 
-		\end{figure}
+	\end{figure}
 
-		\vspace{0.5cm}
+	\vspace{0.5cm}
 
 
-		\item Spettrofotometro:
+	\section{Spettrofotometro}
 
-		\begin{figure}[H]
-			\centering
+	\begin{figure}[H]
+		\centering
 
-				\begin{subfigure}[b]{1\textwidth}
+			\begin{subfigure}[b]{1\textwidth}
 
-					\centering
-			  	\includegraphics[width=0.35\textwidth]{./immagini/spettrofotometro.jpg}
-					\caption{spettrofotometro a cuvetta}
-					\label{spettrofotometro_cuvetta}
+				\centering
+		  	\includegraphics[width=0.35\textwidth]{./immagini/spettrofotometro.jpg}
+				\caption{spettrofotometro a cuvetta}
+				\label{spettrofotometro_cuvetta}
 
-				\end{subfigure}
+			\end{subfigure}
 
-				\qquad
+			\qquad
 
-				\begin{subfigure}[b]{1\textwidth}
-					\centering
-					\includegraphics[width=0.35\textwidth]{./immagini/spettrofotometro_nanodrop.jpg}
-					\caption{spettrofotometro nanodrop}
-					\label{spettrofotometro_nanodrop}
-				\end{subfigure}
+			\begin{subfigure}[b]{1\textwidth}
+				\centering
+				\includegraphics[width=0.35\textwidth]{./immagini/spettrofotometro_nanodrop.jpg}
+				\caption{spettrofotometro nanodrop}
+				\label{spettrofotometro_nanodrop}
+			\end{subfigure}
 
-				\quad
+			\quad
 
-				\begin{subfigure}[b]{1\textwidth}
+			\begin{subfigure}[b]{1\textwidth}
 
-					\centering
-			  	\includegraphics[width=0.35\textwidth]{./immagini/assorbanza.jpeg}
-					\caption{Funzionamento dello spettrofotometro}
-					\label{assorbanza}
+				\centering
+		  	\includegraphics[width=0.35\textwidth]{./immagini/assorbanza.jpeg}
+				\caption{Funzionamento dello spettrofotometro}
+				\label{assorbanza}
 
-				\end{subfigure}
+			\end{subfigure}
 
-			\caption{Lo spettrofotometro è uno strumento usato in laboratorio per la misura dell'intensità
-			luminosa in funzione della lunghezza d'onda.
-			Grazie a questo strumento si pu\`o sapere l'assorbanza della miscela ed analizzarne quindi quantità e purezza.}
+		\caption{Lo spettrofotometro è uno strumento usato in laboratorio per la misura dell'intensità
+		luminosa in funzione della lunghezza d'onda.
+		Grazie a questo strumento si pu\`o sapere l'assorbanza della miscela ed analizzarne quindi quantità e purezza.}
 
-		\end{figure}
+	\end{figure}
 
-		\vspace{0.5cm}
-
-	\end{enumerate}
+	\vspace{0.5cm}
 
 	\newpage
-
-	\title{\huge{RELAZIONI:}}
 	\maketitle
 	\vspace{1.5cm}
+
+	\renewcommand*\thesection{\arabic{chapter}.\arabic{section}}
+	\addtocontents{toc}{\protect\setcounter{tocdepth}{3}}
+
 
 	%_______________________________ESPERIENZA N° 1 (PREPARAZIONE DNA PLASMIDICO TRAMITE LISI ALCALINA)
 	\input{relazione1.tex}
